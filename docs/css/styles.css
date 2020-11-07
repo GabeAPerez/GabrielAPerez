@@ -6097,7 +6097,7 @@ a.close.disabled {
 .bg-primary {
   background: url(Robot14.JPG) ;
   background-size: cover;
-  background-position: right 70% bottom;
+  background-position: right 70% top;
   /*background-color: #587AA7 !important;*/
 
 }
