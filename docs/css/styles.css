@@ -10266,7 +10266,7 @@ form .row:first-child .floating-label-form-group {
 
 /* SLIDESHOW */
 
-* {box-sizing:border-box}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -10286,8 +10286,8 @@ form .row:first-child .floating-label-form-group {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -10359,4 +10359,9 @@ form .row:first-child .floating-label-form-group {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
